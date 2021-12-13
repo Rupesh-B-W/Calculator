@@ -1,0 +1,28 @@
+.conatiner{
+    display:flex;
+    margin:120px auto;
+    max-width: 800px;
+    overflow: hidden;
+
+}
+.slide{
+    display: none;
+    
+}
+.buttom{
+    
+    position:relative;
+    bottom: 123px;
+    left:230px;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+.inside .num{
+    padding: 15px;
+    border-radius: 50px;
+    /* transform: le; */
+    transform: translateX(-100%);
+
+
+}
